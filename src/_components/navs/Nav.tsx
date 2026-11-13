@@ -29,7 +29,7 @@ function NavItem({ name, href = '#', id }: nProps) {
     return (
         <Link href={href}>
             <li onClick={() => setSelectedData({ id, name, href })}
-                className={`border-b-2 
+                className={`border-b-2 text-white
                     hover:border-b-b-white hover:text-b-white transition__effect
                     ${selectedData.id == id
                         ? 'border-b-white text-b-white'

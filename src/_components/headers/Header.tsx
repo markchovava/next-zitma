@@ -83,12 +83,12 @@ export default function Header() {
                 {/* GRADIENT OVERLAYS (readability) */}
                 <div
                     aria-hidden="true"
-                    className="absolute inset-0 -z-20 bg-linear-to-bl from-black/90 to-transparent"
+                    className="absolute inset-0 -z-20 bg-linear-to-br from-black/90 to-transparent"
                 />
-                <div
+                {/*  <div
                     aria-hidden="true"
                     className="absolute inset-0 -z-10 bg-linear-to-t from-black/50 via-transparent to-transparent"
-                />
+                /> */}
 
                 {/* CONTENT: one parent drives the whole sequence */}
                 <motion.div
