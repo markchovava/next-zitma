@@ -102,7 +102,7 @@ export default async function Page() {
         title="What we do?"
         subtitle='Our Services' /> */}
 
-      <div className="bg-gray-50">
+      <div className="">
         <PartnerSection
           list={PartnersData}
           title="Our Partners"

@@ -102,11 +102,11 @@ export default function Header() {
 
                     {/* plain div: layout only, children still inherit the parent's variants */}
                     <div className="max-w-2xl h-full flex flex-col justify-center">
-                        <motion.h1 variants={item} className="mb-4 font-serif text-5xl text-balance  lg:mb-6">
+                        <motion.h1 variants={item} className="mb-4 text-white font-serif text-5xl text-balance  lg:mb-6">
                             {AppInfoData.title}
                         </motion.h1>
 
-                        <motion.p variants={item} className="mb-6 text-lg text-pretty text-gray-200 lg:mb-8 lg:text-xl">
+                        <motion.p variants={item} className="mb-6 text-lg text-pretty text-white lg:mb-8 lg:text-xl">
                             {AppInfoData.intro}
                         </motion.p>
 

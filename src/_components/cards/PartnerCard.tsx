@@ -18,7 +18,7 @@ export default function PartnerCard({ data }: { data: PartnerInterface }) {
     const mouseX = useMotionValue(-200)
     const mouseY = useMotionValue(-200)
 
-    const spotlight = useMotionTemplate`radial-gradient(160px circle at ${mouseX}px ${mouseY}px, rgba(6,182,212,0.22), transparent 70%)`
+    const spotlight = useMotionTemplate`radial-gradient(160px circle at ${mouseX}px ${mouseY}px, rgba(30, 41, 59, 0.22), transparent 70%)`
 
     return (
         <motion.div
@@ -46,7 +46,7 @@ export default function PartnerCard({ data }: { data: PartnerInterface }) {
                 width={400}
                 height={300}
                 draggable={false}
-                className="relative h-full w-full object-contain transition-all duration-300 group-hover:opacity-100 group-hover:grayscale-0"
+                className={`relative h-full w-full object-contain transition-all duration-300 group-hover:opacity-100 group-hover:grayscale-0`}
             />
         </motion.div>
     )

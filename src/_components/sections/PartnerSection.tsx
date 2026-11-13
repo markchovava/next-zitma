@@ -66,7 +66,7 @@ export default function PartnerSection({
             />
             <motion.div
                 aria-hidden
-                className="pointer-events-none absolute -right-24 bottom-10 h-80 w-80 rounded-full bg-blue-500/15 blur-3xl"
+                className="pointer-events-none absolute -right-24 bottom-10 h-80 w-80 rounded-full bg-slate-600/15 blur-3xl"
                 animate={{ x: [0, -50, 0], y: [0, -40, 0] }}
                 transition={{ duration: 18, repeat: Infinity, ease: "easeInOut" }}
             />
@@ -99,7 +99,7 @@ export default function PartnerSection({
                             },
                         }}
                         style={{ originX: 0 }}
-                        className="mt-4 h-1 w-24 rounded-full bg-linear-to-r from-slate-500 to-blue-600"
+                        className="mt-4 h-1 w-24 rounded-full bg-linear-to-r from-slate-500 to-slate-800"
                     />
                 </motion.div>
             </div>

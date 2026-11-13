@@ -26,10 +26,10 @@ export default function Logo({
             <motion.div
                 whileTap={{ scale: 0.95 }}
                 transition={{ type: "spring", stiffness: 280, damping: 32, mass: 0.85 }}
-                className="flex items-center"
+                className="flex items-center bg-white pt-2 pb-1 px-1"
             >
                 <Image
-                    src="/assets/images/logos/logo2.png"
+                    src="/assets/images/logos/logo.png"
                     alt={alt}
                     width={400}
                     height={72}
