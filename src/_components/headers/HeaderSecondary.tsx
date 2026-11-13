@@ -20,7 +20,7 @@ export default function HeaderSecondary({ name, image }: Props) {
 
     return (
         <>
-            <header className="relative w-full h-64 sm:h-72 lg:h-80 overflow-hidden text-gray-50 bg-amber-900">
+            <header className="relative w-full h-64 sm:h-72 lg:h-80 overflow-hidden text-gray-50 bg-slate-900">
                 <div
                     aria-hidden="true"
                     style={{ backgroundImage: image ? `url(${image})` : undefined }}

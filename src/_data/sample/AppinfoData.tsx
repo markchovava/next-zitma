@@ -21,7 +21,6 @@ export const AppInfoData = {
     emailList: <>
         recruitment@zitma.co.zw <br />
         info@zitma.co.zw <br />
-        kennedyc@zitma.co.zw <br />
     </>,
     whatWeDo: {
         title: 'What We Do',
