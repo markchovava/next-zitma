@@ -4,12 +4,6 @@ import type { Metadata } from "next";
 import { AppInfoData } from "@/_data/sample/AppinfoData";
 import SectionPrimaryDark from "@/_components/sections/SectionPrimaryDark";
 import SectionPrimary from "@/_components/sections/SectionPrimary";
-import BannerMain from "@/_components/banners/BannerMain";
-import ExperienceSection from "@/_components/sections/ExperienceSection";
-import ServiceSection from "@/_components/sections/ServiceSection";
-import { ServiceData } from "@/_data/sample/ServiceData";
-import ClientSection from "@/_components/sections/ClientSection";
-import { serviceAllAction } from "../admin/_data/actions/ServiceActions";
 import Header from "@/_components/headers/Header";
 import SectionSecondary from "@/_components/sections/SectionSecondary";
 import GridPrimary from "@/_components/grids/GridPrimary";
@@ -91,16 +85,6 @@ export default async function Page() {
         subtitle="What we offer"
         data={ProductsData}
       />
-
-
-
-
-      {/* <ExperienceSection /> */}
-
-      {/*   <ServiceSection
-        list={serviceData.data ?? ServiceData}
-        title="What we do?"
-        subtitle='Our Services' /> */}
 
       <div className="">
         <PartnerSection

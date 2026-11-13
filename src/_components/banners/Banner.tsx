@@ -32,7 +32,6 @@ export default function Banner() {
                             <Link href='/buy-a-car'>
                                 <Button
                                     name="Buy A Car"
-                                    css="text-lg py-3 px-9 text-white"
                                 />
                             </Link>
                         </div>
@@ -62,7 +61,6 @@ export default function Banner() {
                             <Link href='/buy-a-car'>
                                 <Button
                                     name="Buy A Car"
-                                    css="text-lg py-3 px-9 text-white"
                                 />
                             </Link>
                         </div>

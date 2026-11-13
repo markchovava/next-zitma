@@ -5,12 +5,12 @@ import { NavData } from "@/_data/sample/NavData"
 import Logo from "../logos/Logo"
 import NavItem from "../navs/NavItem"
 import HeaderMainResponsive from "./HeaderMainResponsive"
-import ButtonMenu from "../buttons/ButtonMenu"
 import BannerMain from "../banners/BannerMain"
 import HeaderTop from "./HeaderTop"
 import { useAppInfoStore } from "@/_store/useAppInfoStore"
 import { AppInfoEntity } from "@/_data/entity/AppInfoEntity"
 import { AppInfoData } from "@/_data/sample/AppinfoData"
+import MenuButton from "../buttons/MenuButton"
 
 
 
@@ -67,7 +67,7 @@ export default function HeaderMain({ appData }: Props) {
                 <section className="block w-full lg:hidden">
                     <div className="container__primary flex items-center justify-between py-1">
                         <Logo iconCss="h-14" />
-                        <ButtonMenu color="text-gray-800" />
+                        <MenuButton color="text-gray-800" />
                     </div>
                     <HeaderMainResponsive />
                 </section>

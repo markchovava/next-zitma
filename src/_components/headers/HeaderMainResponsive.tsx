@@ -6,11 +6,11 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { AnimatePresence, MotionConfig, motion } from "motion/react"
 import { useNavStore } from "../../_store/useNavStore"
-import ButtonMenu from "../buttons/ButtonMenu"
 import Logo from "../logos/Logo"
 import IconDefault from "../icons/IconDefault"
 import { NavData } from "@/_data/sample/NavData"
 import { AppInfoData } from "@/_data/sample/AppinfoData"
+import MenuButton from "../buttons/MenuButton"
 
 /* Same matching rule as NavItem, so desktop and mobile agree on the active page */
 function isActive(pathname: string, href: string) {
@@ -129,7 +129,7 @@ export default function HeaderMainResponsive() {
                             {/* Panel header */}
                             <div className="flex shrink-0 items-center justify-between border-b border-gray-100 px-5 py-3">
                                 <Logo iconCss="h-14" onClick={close} />
-                                <ButtonMenu
+                                <MenuButton
                                     color="text-gray-900"
                                     aria-label="Close navigation menu"
                                 />

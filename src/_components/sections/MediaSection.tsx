@@ -62,7 +62,7 @@ export default function MediaSection({
                     <div className="flex items-center justify-center pt-6">
                         <Button
                             name="Load More"
-                            css="text-lg py-4 px-11 text-white"
+
                         />
                     </div>
                 </div>

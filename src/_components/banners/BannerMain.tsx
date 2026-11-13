@@ -108,7 +108,7 @@ export default function BannerMain({ image }: Props) {
 
                     <motion.div variants={item}>
                         <Link href="/about">
-                            <Button name="About Us" css="text-lg py-3 px-9 text-white" />
+                            <Button name="About Us" />
                         </Link>
                     </motion.div>
                 </motion.div>

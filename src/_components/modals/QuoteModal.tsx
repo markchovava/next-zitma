@@ -221,7 +221,6 @@ export default function QuoteModal() {
                                     <Button
                                         type='submit'
                                         name='Submit'
-                                        css='px-12 text-white py-4'
                                         status={isSubmitting}
                                     />
                                 </div>

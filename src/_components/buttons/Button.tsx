@@ -8,6 +8,7 @@ interface Props {
     type?: "button" | "submit" | "reset";
     onClick?: () => void;
     name?: string;
+    status?: boolean
 }
 
 const ease = [0.65, 0, 0.35, 1] as const;
@@ -16,7 +17,8 @@ const GRAY_800 = "#1f2937";
 export default function Button({
     type = "button",
     onClick,
-    name
+    name,
+    status
 }: Props) {
     return (
         <motion.button

@@ -157,7 +157,6 @@ export default function AdmissionForm() {
                     type="submit"
                     name="Submit"
                     status={isSubmitting}
-                    css='text-lg py-3 px-9 text-white'
                 />
             </form>
         </div>

@@ -143,7 +143,7 @@ export default function SectionOneDark({
                                 <Link href={href}>
                                     <Button
                                         name={btnName}
-                                        css="text-lg py-3 px-9 text-white"
+
                                     />
                                 </Link>
                             </div>
