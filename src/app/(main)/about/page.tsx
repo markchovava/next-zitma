@@ -42,7 +42,7 @@ export default async function page() {
 
     return (
         <>
-            <HeaderSecondary name={title} image={AppInfoData.headers[1]} />
+            <HeaderSecondary name={title} image={AppData.headers.images[0]} />
             <BreadCrumb data={CrumbsData} />
 
             <div id='intro'>
@@ -58,7 +58,7 @@ export default async function page() {
             <div id='about'>
                 <SectionPrimary
                     dir='left'
-                    image={AppInfoData.images[0]}
+                    image={AppData.about.images[4]}
                     title={`Who We Are?`}
                     subtitle="About Us"
                     details={AppData.about.intro}
@@ -68,10 +68,9 @@ export default async function page() {
             <div className='background'>
                 <SectionPrimaryDark
                     dir='right'
-                    image={AppInfoData.images[3]}
+                    image={AppData.about.images[1]}
                     title={`Our Background`}
                     subtitle="About Us"
-                    btnName="Our Background"
                     details={AppData.about.whyUs}
                 />
             </div>
@@ -88,7 +87,9 @@ export default async function page() {
 
             <section className='bg-gray-50'>
                 <Spacer />
-                <ContactSection dbData={AppInfoData} />
+                <div className='container__primary'>
+                    <ContactSection dbData={AppInfoData} />
+                </div>
                 <Spacer />
             </section>
         </>

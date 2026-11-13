@@ -4,6 +4,7 @@ import AddressMap from "@/_components/maps/AddressMap"
 import ContactSection from "@/_components/sections/ContactSection"
 import Spacer from "@/_components/spacers/Spacer"
 import TitleNormal from "@/_components/titles/TitleNormal"
+import { AppData } from "@/_data/sample/AppData"
 import { AppInfoData } from "@/_data/sample/AppinfoData"
 import { Metadata } from "next"
 
@@ -33,7 +34,7 @@ export default async function page() {
     return (
         <>
 
-            <HeaderSecondary name={title} image={AppInfoData.headers[3]} />
+            <HeaderSecondary name={title} image={AppData.headers.images[3]} />
             <BreadCrumb data={CrumbsData} />
 
             <Spacer />

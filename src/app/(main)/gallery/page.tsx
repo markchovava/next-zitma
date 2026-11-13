@@ -3,6 +3,7 @@ import HeaderSecondary from '@/_components/headers/HeaderSecondary'
 import ContactSection from '@/_components/sections/ContactSection'
 import GallerySection from '@/_components/sections/GallerySection'
 import Spacer from '@/_components/spacers/Spacer'
+import { AppData } from '@/_data/sample/AppData'
 import { AppInfoData } from '@/_data/sample/AppinfoData'
 import { GalleryData } from '@/_data/sample/GalleryData'
 import { Metadata } from 'next'
@@ -37,7 +38,7 @@ export default async function page() {
 
     return (
         <>
-            <HeaderSecondary name={title} image={AppInfoData.headers[2]} />
+            <HeaderSecondary name={title} image={AppData.headers.images[1]} />
             <BreadCrumb data={CrumbsData} />
 
             <GallerySection

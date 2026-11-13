@@ -36,9 +36,9 @@ export const metadata: Metadata = {
 
 
 export default async function Page() {
-  const [serviceData] = await Promise.all([
+  /* const [serviceData] = await Promise.all([
     serviceAllAction()
-  ])
+  ]) */
 
   // console.log('serviceData.data', serviceData?.data)
 
@@ -46,38 +46,41 @@ export default async function Page() {
     <>
       <Header />
 
-      <Spacer />
+      <section className="bg-gray-50">
+        <SectionPrimary
+          dir='left'
+          image={AppData.about.images[4]}
+          title={`Who We Are?`}
+          subtitle="About Us"
+          details={AppData.about.brief}
+          href="/about"
+          withContact={false}
+          btnName="About Us"
+        />
 
-      <SectionPrimary
-        dir='left'
-        image={AppInfoData.images[0]}
-        title={`Who We Are?`}
-        subtitle="About Us"
-        details={AppData.about.brief}
-        href="/about"
-        withContact={false}
-        btnName="About Us"
-      />
+      </section>
 
       <SectionPrimaryDark
         dir='right'
-        image={AppInfoData.images[3]}
+        image={AppData.about.images[1]}
         title={`Our Background`}
         subtitle="About Us"
         btnName="Our Background"
-        href="/about#whyUs"
+        href="/about#background"
         details={AppData.about.whyUs}
       />
 
-      <SectionSecondary
-        image={AppInfoData.images[0]}
-        title={`What we do?`}
-        subtitle="Our Services"
-        details={AppData.whatWeDo.intro}
-        withBtn={true}
-        btnName="Our Services"
-        href="#"
-      />
+      <section className="bg-gray-50">
+        <SectionSecondary
+          image={AppData.about.images[2]}
+          title={`What we do?`}
+          subtitle="Our Services"
+          details={AppData.whatWeDo.intro}
+          withBtn={true}
+          btnName="Our Services"
+          href="/service"
+        />
+      </section>
 
       <ServiceIconSection
         title="Our Services"

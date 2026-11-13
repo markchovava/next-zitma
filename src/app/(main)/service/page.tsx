@@ -5,6 +5,7 @@ import ContactSection from '@/_components/sections/ContactSection'
 import ServiceIconSection from '@/_components/sections/ServiceIconSection'
 import ServiceSection from '@/_components/sections/ServiceSection'
 import Spacer from '@/_components/spacers/Spacer'
+import { AppData } from '@/_data/sample/AppData'
 import { AppInfoData } from '@/_data/sample/AppinfoData'
 import { ProductsData } from '@/_data/sample/ProductsData'
 import { ServiceData } from '@/_data/sample/ServiceData'
@@ -38,7 +39,7 @@ export default async function page() {
 
     return (
         <>
-            <HeaderSecondary name={title} image={AppInfoData.headers[2]} />
+            <HeaderSecondary name={title} image={AppData.headers.images[2]} />
             <BreadCrumb data={CrumbsData} />
 
             <ServiceIconSection
@@ -54,7 +55,9 @@ export default async function page() {
 
             <section className=''>
                 <Spacer />
-                <ContactSection dbData={AppInfoData} />
+                <div className='container__primary'>
+                    <ContactSection dbData={AppInfoData} />
+                </div>
                 <Spacer />
             </section>
         </>

@@ -189,7 +189,7 @@ export const AppInfoData = {
         { name: 'linkedin', href: '#', iconCss: 'text-blue-600' },
     ],
     images: [
-        '/assets/images/gallery/01.jpg',
+        '/assets/images/gallery/03.jpg',
         '/assets/images/gallery/02.jpg',
         '/assets/images/gallery/03.jpg',
         '/assets/images/gallery/04.jpg',
@@ -209,9 +209,9 @@ export const AppInfoData = {
         `/assets/images/headers/05.png`,
     ],
     banners: [
-        `/assets/images/banners/03.png`,
+        `/assets/images/banners/01.png`,
         `/assets/images/banners/02.png`,
-        `/assets/images/banners/01.jpg`,
+        `/assets/images/banners/03.jpg`,
     ],
     important: [
         {

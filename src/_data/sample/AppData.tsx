@@ -16,6 +16,14 @@ export const AppData = {
     ],
     about: {
         title: "About ZITMA",
+        images: [
+            '/assets/images/about/01.jpg',
+            '/assets/images/about/02.jpg',
+            '/assets/images/about/03.jpg',
+            '/assets/images/about/04.jpg',
+            '/assets/images/about/05.jpg',
+            '/assets/images/about/06.jpg',
+        ],
         brief: <>
             ZITMA is the unified collective voice of Zimbabwe’s industrial textile. Operating as an independent,
             self-funded non-profit trade association, our primary focus is safeguarding domestic manufacturing
@@ -140,6 +148,14 @@ export const AppData = {
             <p>We work closely with strategic economic partners, including:</p>
         </>,
         list: PartnersData
+    },
+    headers: {
+        images: [
+            '/assets/images/headers/01.jpg',
+            '/assets/images/headers/02.jpg',
+            '/assets/images/headers/03.jpg',
+            '/assets/images/headers/04.jpg',
+        ]
     }
 }
 
