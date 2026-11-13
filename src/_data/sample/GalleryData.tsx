@@ -7,6 +7,4 @@ export const GalleryData = [
     { ...GalleryEntity, id: 4, eventName: 'The Celebration', image: '/assets/images/gallery/04.jpg' },
     { ...GalleryEntity, id: 5, eventName: 'The Celebration', image: '/assets/images/gallery/05.jpg' },
     { ...GalleryEntity, id: 6, eventName: 'The Celebration', image: '/assets/images/gallery/06.jpg' },
-    { ...GalleryEntity, id: 7, eventName: 'The Celebration', image: '/assets/images/gallery/07.jpg' },
-    { ...GalleryEntity, id: 8, eventName: 'The Celebration', image: '/assets/images/gallery/08.jpg' },
 ]
