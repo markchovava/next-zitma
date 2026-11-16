@@ -8,8 +8,8 @@ export const AppData = {
     address: "6 Motherwell Road, Workington, Harare, Zimbabwe",
     email: "info@zitma.co.zw",
     emailList: <>
-        admin@zitma.co.zw <br />
         info@zitma.co.zw <br />
+        zitmasecretary@gmail.com <br />
     </>,
     phone: "+263 774 954 429 / +263 772 215 197",
     website: "https://www.zitma.co.zw",
