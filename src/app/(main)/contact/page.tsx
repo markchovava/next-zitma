@@ -40,7 +40,7 @@ export default async function page() {
             <Spacer />
             <div className="container__primary space-y-6">
                 <TitleNormal name="Contact Us" />
-                <ContactSection dbData={AppInfoData} />
+                <ContactSection dbData={AppData} />
             </div>
 
             <Spacer />

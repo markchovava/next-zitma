@@ -98,7 +98,7 @@ export default async function Page() {
       <section className="bg-gray-100">
         <Spacer />
         <div className="container__primary">
-          <ContactSection dbData={AppInfoData} />
+          <ContactSection dbData={AppData} />
         </div>
         <Spacer />
       </section>

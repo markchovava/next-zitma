@@ -56,7 +56,7 @@ export default async function page() {
             <section className=''>
                 <Spacer />
                 <div className='container__primary'>
-                    <ContactSection dbData={AppInfoData} />
+                    <ContactSection dbData={AppData} />
                 </div>
                 <Spacer />
             </section>

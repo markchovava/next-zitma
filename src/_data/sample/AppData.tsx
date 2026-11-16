@@ -7,6 +7,10 @@ export const AppData = {
     coverage: ">80% of total paid-up equity in Zimbabwe's textile industry",
     address: "6 Motherwell Road, Workington, Harare, Zimbabwe",
     email: "info@zitma.co.zw",
+    emailList: <>
+        admin@zitma.co.zw <br />
+        info@zitma.co.zw <br />
+    </>,
     phone: "+263 774 954 429 / +263 772 215 197",
     website: "https://www.zitma.co.zw",
     social: [
@@ -30,8 +34,8 @@ export const AppData = {
             investments, fostering regional competitiveness, and driving technological modernization.
         </>,
         whyUs: <>
-            Founded to create a sustainable, competitive, and ethically driven manufacturing ecosystem, ZITMA bridges
-            the gap between textile manufacturers, government bodies, and international trade networks.
+            Founded in 1963 to foster a sustainable, competitive, and ethical manufacturing ecosystem,
+            ZITMA connects textile manufacturers with government bodies and international trade networks.
         </>,
         intro: <>
             ZITMA is the recognized national
